@@ -1,0 +1,425 @@
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-image: url(../IMG/img.jpg);
+    overflow: hidden;
+    height: 100vh;
+    position: absolute;
+
+
+
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    padding: 1px;
+    background: #0AAB8A;
+}
+
+header #button-menu{
+    color:transparent;
+
+
+
+
+}
+
+.navegacion{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 150vh;
+    background: rgba(0,0,0,.0);
+    max-width: 100px;
+
+}
+
+
+.navegacion ul{
+    width: 320px;
+    height: 100%;
+    background: #fff;
+    list-style: armenian;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -320px;
+
+    transition: left .2s;
+    overflow: hidden;
+}
+
+.navegacion .menu li.title-menu{
+    padding: 20px;
+    background:#0AAB8A;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+}
+
+.navegacion .menu a{
+    display: block;
+    padding: 20px;
+    border-bottom: 1px solid #C6D0DA;
+
+    font-size: 22px;
+    font-weight: 200;
+    text-decoration: none;
+    color: #575D69;
+}
+
+.navegacion .menu a:hover{
+    background: #778899;
+    color: #000;
+}
+
+.navegacion .menu li span.icon-menu{
+    margin-right: 19px;
+}
+
+.navegacion .menu .item-submenu > a::after{
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: '\f105';
+
+    float: right;
+    color: #C5C5C5;
+}
+
+/* Submenu ============*/
+
+.navegacion .submenu li.title-menu{
+    background: #fff;
+    color: #575D69;
+}
+
+.navegacion .submenu li.go-back{
+    padding: 10px 20px;
+    background: #0080BC;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.navegacion .submenu li.go-back::before{
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: '\f0d9';
+    margin-right: 10px;
+}
+
+
+
+
+
+
+.div-imagen {
+    display:inline-block;
+    position: fixed;
+    right: 1%;
+    top: .5%;
+
+}
+
+.div-imagen > div {
+    z-index:-1;
+    margin:0;
+}
+
+.desvanecer:hover {
+    opacity: 0.07;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+
+ul#menu-horizontal li {
+    float: left;
+    display: inline;
+    position: relative;}
+
+ul#menu-horizontal ul {
+    display: none;
+    position: relative;
+    top: 24PX;
+    left:0;
+    margin:0;
+    padding:0;
+    background:#FFFFFF;
+}
+
+ul#menu-horizontal ul li {
+    display: block !important;
+}
+
+ul#menu-horizontal li:hover ul{
+    display: none;
+}
+
+ul#menu-horizontal li:hover ul{
+    display: block;}
+
+.logo{
+    top: 10%;
+    left:38%;
+    position: fixed;
+    display: block;
+}
+.posision{
+    display: flex;
+    left: 10%;
+    top: 40%;
+    height: 50%;
+    justify-content: center;
+
+}
+
+
+
+
+/* 
+  estilo basico
+*/
+
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font-family: Ubuntu, arial, verdana;
+}
+/* 
+   tabla de precios y bloques de precios
+*/
+.pricing_table {
+    line-height: 150%; 
+    font-size: 12px; 
+    margin: 0 auto; 
+    width: 50%; 
+    max-width: 20%; 
+    padding-top: 1%;
+    margin-top: 10%;
+    left:10%;
+    display:block;
+    position: fixed;
+}
+
+
+.pricing_table1 {
+    line-height: 150%; 
+    font-size: 12px; 
+    margin: 0 auto; 
+    width: 50%; 
+    max-width: 20%; 
+    padding-top: 1%;
+    margin-top: 15%;
+    left:40%;
+    display:block;
+    position: fixed;
+    margin-top: 10%;
+
+}
+
+.pricing_table2 {
+    line-height: 150%; 
+    font-size: 12px; 
+    margin: 0 auto; 
+    width: 50%; 
+    max-width: 20%; 
+    padding-top: 1%;
+    margin-top: 15%;
+    left:71%;
+    display:block;
+    position: fixed;
+    margin-top: 10%;
+
+}
+
+.price_block {
+    width: 100%; 
+    color: #fff; 
+    float: left; 
+    list-style-type: none; 
+    transition: all 0.25s; 
+    position: relative; 
+    box-sizing: border-box;
+
+    margin-bottom: 10px; 
+    border-bottom: 1px solid transparent; 
+}
+
+/* 
+    titulo de precios
+*/
+.pricing_table h3 {
+    text-transform: uppercase; 
+    padding: 5px 0; 
+    background: #708090; 
+    margin: -10px 0 1px 0;
+}
+.pricing_table1 h3 {
+    text-transform: uppercase; 
+    padding: 5px 0; 
+    background: #708090; 
+    margin: -10px 0 1px 0;
+}
+.pricing_table2 h3 {
+    text-transform: uppercase; 
+    padding: 5px 0; 
+    background: #708090; 
+    margin: -10px 0 1px 0;
+}
+/* 
+  etiquetas de precios
+*/
+.price {
+    display: table; 
+    background: #0AAB8A; 
+    width: 100%; 
+    height: 70px; 
+}
+.price_figure {
+    font-size: 24px; 
+    text-transform: uppercase; 
+    vertical-align: middle; 
+    display: table-cell;
+}
+.price_number {
+    font-weight: bold; 
+    display: block;
+}
+.price_tenure {
+    font-size: 11px; 
+}
+/* 
+   caracteristicas y colores de colubnas
+*/
+.features {
+    background: #DEF0F4; 
+    color: #000;
+}
+.features li {
+    padding: 8px 15px;
+    border-bottom: 1px solid #ccc; 
+    font-size: 11px; 
+    list-style-type: none;
+}
+/* 
+   footer y boton accion
+*/
+.footer {
+    padding: 15px; 
+    background: #DEF0F4;
+}
+.action_button {
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    background: linear-gradient(#666, #333); 
+    padding: 5px 20px; 
+    font-size: 11px; 
+    text-transform: uppercase;
+}
+
+
+
+.action_button1 {
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    background: linear-gradient(#666, #333); 
+    padding: 5px 20px; 
+    font-size: 11px; 
+    text-transform: uppercase;
+}
+
+.action_button2 {
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    background: linear-gradient(#666, #333); 
+    padding: 5px 20px; 
+    font-size: 11px; 
+    text-transform: uppercase;
+}
+/* 
+   efecto hover
+*/
+.price_block:hover {
+    box-shadow: 0 0 0px 5px rgba(0, 0, 0, 0.5); 
+    transform: scale(1.04) translateY(-5px); 
+    z-index: 1; 
+    border-bottom: 0 none;
+}
+.price_block:hover .price {
+    background:linear-gradient(#01DF01, #01DF01); 
+    box-shadow: inset 0 0 45px 1px #01DF01;
+}
+.price_block:hover h3 {
+    background: #222;
+}
+.price_block:hover .action_button  {
+    background: linear-gradient(#045FA0, #045FA0); 
+
+
+} 
+
+
+
+
+@media only screen and (min-width : 300px){
+    .price_block {width: 100%;}
+    .price_block {border-right: 1px solid transparent; border-bottom: 0 none;}
+    .price_block:last-child {border-right: 0 none;}
+
+    .price_block:hover {border: 0 none;}
+
+
+    p{
+        left: 66%;
+        top: 15%;
+        display: block;
+        position: fixed;
+        text-align: left;
+        font-family:impact;
+        font-style: oblique;
+        color: #ffffff;
+        font-size: 50px;
+        text-shadow:0px  0px 50px  #000;
+
+
+    }
+
+    .fondo{
+        background:  url(../img/bonfire.jpg);
+        overflow: hidden;
+        height: 100vh;
+        position: fixed;
+    }
