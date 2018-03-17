@@ -417,9 +417,4 @@ body {
 
     }
 
-    .fondo{
-        background:  url(../img/bonfire.jpg);
-        overflow: hidden;
-        height: 100vh;
-        position: fixed;
-    }
+  

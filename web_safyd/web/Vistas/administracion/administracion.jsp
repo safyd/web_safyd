@@ -58,20 +58,22 @@
 
         </div> </div>
     <div class="container-fluid">
+       
+            <h3  style="color:black;">Contabilidad</h3>
+            <p style="font-size: 19px; font-family: serif; color:black;">"Sistema de control y registro de los gastos e ingresos y demás operaciones económicas que realiza una empresa o entidad para presentar a la secretaría de administración fiscal.Sistema de control y
+                registro de los gastos e ingresos y demás operaciones económicas que realiza una empresa o entidad para presentar a la secretaría de administración fiscal."</p>
+      
+       
+            <h3>Nomina</h3>
+            <p style="font-size: 19px;font-family: serif; color:black; ">"suma de todos los registros financieros de los sueldos de un empleado, los salarios, las bonificaciones y deducciones. En la contabilidad, la nómina se refiere a la
+                cantidad pagada a los empleados por los servicios que prestó durante un cierto período de tiempo."</p>
+        
 
-        <h3 style="color:black;">Contabilidad</h3>
-        <p style="font-size: 19px; font-family: serif; color:black;">"Sistema de control y registro de los gastos e ingresos y demás operaciones económicas que realiza una empresa o entidad para presentar a la secretaría de administración fiscal.Sistema de control y
-            registro de los gastos e ingresos y demás operaciones económicas que realiza una empresa o entidad para presentar a la secretaría de administración fiscal."</p>
-
-        <h3>Nomina</h3>
-        <p style="font-size: 19px;font-family: serif; color:black; ">"suma de todos los registros financieros de los sueldos de un empleado, los salarios, las bonificaciones y deducciones. En la contabilidad, la nómina se refiere a la
-            cantidad pagada a los empleados por los servicios que prestó durante un cierto período de tiempo."</p>
-
-
-        <h3>Ventas</h3>
-        <p style="font-size: 19px;font-family: serif; color:black;">"registra las ventas generadas de su empresa para 
-            un mejor control de sus ingresos y puedas sacar la utilidad de su entidad."</p>
-
+       
+            <h3>Ventas</h3>
+            <p style="font-size: 19px;font-family: serif; color:black;">"registra las ventas generadas de su empresa para 
+                un mejor control de sus ingresos y puedas sacar la utilidad de su entidad."</p>
+     
 
         <h3>Bancos</h3>
         <p style="font-size: 19px;font-family: serif; color:black;">"registro de las cuentas bancarias personales en contabilidad ayuda a tener control de 
